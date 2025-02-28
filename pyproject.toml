@@ -1,0 +1,19 @@
+[project]
+name = "bootcamp-pyhton"
+version = "1.0.0"
+description = ""
+authors = [
+    {name = "Joao Pedro Santos",email = "jpedro.csantos@hotmail.com"}
+]
+readme = "README.md"
+requires-python = "3.12.1"
+dependencies = [
+    "dask (>=2025.2.0,<2026.0.0)",
+    "duckdb (>=1.2.0,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
